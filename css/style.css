@@ -18,6 +18,10 @@ h3{
     font-size: 35px;
 }
 
+h2{
+    text-align: center;
+}
+
 .accredito{
     cursor: pointer;
 }
@@ -26,5 +30,4 @@ h3{
     /*width: 50%;
     height: auto;*/
     /*border: solid 1px black;*/
-    text-align: center;
 }
