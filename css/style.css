@@ -5,17 +5,26 @@ body{
 h1{
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
-    font-size: 49px;
-    color: black
+    font-size: 50px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 h3{
     color: black;
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
+    font-size: 35px;
+}
+
+.accredito{
+    cursor: pointer;
 }
 
 .gif{
     /*width: 50%;
     height: auto;*/
+    /*border: solid 1px black;*/
+    text-align: center;
 }
