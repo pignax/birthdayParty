@@ -14,11 +14,10 @@ h1{
 h2{
     text-align: center;
     letter-spacing: 9px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .containerCount {
-  color: #333;
   text-align: center;
 }
 
@@ -44,8 +43,13 @@ li span {
 }
 
 .gif{
-    /*width: 50%;
-    height: auto;*/
-    /*border: solid 1px black;*/
+    text-align: center;
+}
+
+.click{
+    width: 100%;
+    height: 200px;
+    margin-top: 110px;
+    font-size: 35px;
     text-align: center;
 }
