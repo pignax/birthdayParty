@@ -11,16 +11,16 @@
 </head>
 <body>
    
-   <h1>HAPPY B-DAY CERGO&amp;DEMO</h1>
+   <h1>HAPPY B-DAY <br><span class="titleCD">CERGO &amp; DEMO</span></h1>
    
    <h2>DOMENICA 12 MAGGIO 2019<br>19.30<br>JUST CAVALLI MILANO</h2>
     
    <div class="containerCount">
       <ul>
-        <li><span id="days"></span>days</li>
-        <li><span id="hours"></span>Hours</li>
-        <li><span id="minutes"></span>Minutes</li>
-        <li><span id="seconds"></span>Seconds</li>
+        <li><span id="days"></span>giorni</li>
+        <li><span id="hours"></span>ore</li>
+        <li><span id="minutes"></span>minuti</li>
+        <li><span id="seconds"></span>secondi</li>
       </ul>
    </div>
       
@@ -36,11 +36,12 @@
        </div> 
          
         <div class="row">
-           <div class="col-xs-6 accredito demo">
-               <a download href="pdf/prenotazione_albergoBarca.pdf" target="_blank"><img class="img-responsive gif" src="img/demo.gif" alt="scarica l'accredito Cergo"></a>   
-           </div>
+           
            <div class="col-xs-6">
                <div class="click">clicca</div>
+           </div>
+           <div class="col-xs-6 accredito demo">
+               <a download href="pdf/prenotazione_albergoBarca.pdf" target="_blank"><img class="img-responsive gif" src="img/demo.gif" alt="scarica l'accredito Cergo"></a>   
            </div>
        </div>        
     
@@ -64,7 +65,7 @@
             document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
             document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
             
-            /*if (distance < 0) {
+            /*if (distance < -1) {
                 clearInterval(x);
                 'IT'S MY BIRTHDAY!;
             }*/
