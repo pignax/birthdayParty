@@ -7,15 +7,8 @@ h1{
     text-align: center;
     font-size: 50px;
     color: black;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 80px;
-}
-
-h3{
-    color: black;
-    font-family: 'Archivo Black', sans-serif;
-    text-align: center;
-    font-size: 35px;
 }
 
 h2{
@@ -24,8 +17,30 @@ h2{
     margin-bottom: 80px;
 }
 
+.containerCount {
+  color: #333;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
 .accredito{
     cursor: pointer;
+}
+
+.cergo{
+    margin-bottom: 40px;
 }
 
 .gif{
