@@ -20,12 +20,12 @@ h2{
     margin-bottom: 20px;
 }
 
-.containerCount {
-  text-align: center;
-  border: solid 1px black;
+.count {
+    text-align: center;
+    border: solid 1px black;  
 }
 
-li {
+li {  
   display: inline-block;
   font-size: 14px;
   list-style-type: none;
