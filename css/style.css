@@ -22,8 +22,7 @@ h2{
 
 .count {
     text-align: center;
-    border: solid 1px black;  
-    background-color: black
+    background-color: black;
 }
 
 li {  
@@ -32,7 +31,8 @@ li {
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
-    color: white;
+  color: white;
+  margin-right: 50px;
 }
 
 li span {
