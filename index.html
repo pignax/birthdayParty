@@ -12,16 +12,7 @@
 <body>
    
    <h1>HAPPY B-DAY <br><span class="titleCD">CERGO &amp; DEMO</span></h1>
-      
-       <div class="count">
-         <ul>
-            <li><span id="days" style="font-size:50px;"></span>giorni</li>
-            <li><span id="hours" style="font-size:50px;"></span>ore</li>
-            <li><span id="minutes" style="font-size:50px;"></span>minuti</li>
-            <li><span id="seconds" style="font-size:50px;"></span>secondi</li>
-         </ul>
-       </div>     
-   
+     
    <h2>DOMENICA 12 MAGGIO 2019<br>ORE 19.30<br>JUST CAVALLI MILANO</h2>
    <h3 style="text-align:center; margin-bottom: 100px!important; margin-top: -60px; color:#a94442;">[Clicca sull'Animoji per scaricare l'invito da mostrare all'ingresso del locale]</h3>  
           
@@ -49,33 +40,6 @@
            </div>
        </div>        
     
-   </div>
-
-<script>
-    
-    const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
-    
-    let countDown = new Date('May 12, 2019 19:30:00').getTime(),
-        x = setInterval(function() {
-
-    let now = new Date().getTime(),
-        distance = countDown - now;
-            
-            document.getElementById('days').innerText = Math.floor(distance / (day)),
-            document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-            document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-            document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-            
-            /*if (distance < -1) {
-                clearInterval(x);
-                'IT'S MY BIRTHDAY!;
-            }*/
-        }, second)
-    
-</script>    
-            
+   </div>  
 </body>
 </html>
